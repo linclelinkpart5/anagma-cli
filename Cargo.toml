@@ -8,4 +8,4 @@ edition = "2018"
 
 [dependencies]
 clap = "3.0.0-beta.2"
-anagma = { git = "https://github.com/linclelinkpart5/anagma" }
+anagma = { path = "../anagma" }
