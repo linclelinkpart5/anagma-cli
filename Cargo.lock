@@ -12,8 +12,7 @@ dependencies = [
 [[package]]
 name = "anagma"
 version = "0.1.3"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "91a7cebc46a13459e64812b9f1b87a9025b2bcc11656424f150381a8a4e4845f"
+source = "git+https://github.com/linclelinkpart5/anagma#1b81e1d1a652ba99f1015be58b0633d4d8d07799"
 dependencies = [
  "globset",
  "indexmap",
