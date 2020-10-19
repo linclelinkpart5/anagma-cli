@@ -1,0 +1,6 @@
+{
+  "include_files": "*.flac",
+  "schema_format": "json",
+  "item_fn": "track.json",
+  "self_fn": "album.json"
+}
