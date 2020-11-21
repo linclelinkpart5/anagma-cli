@@ -1,0 +1,8 @@
+[filtering]
+include_files = ["*.flac", "*.ogg"]
+exclude_dirs = "Scans"
+[ordering]
+sort_by = "name"
+[sourcing]
+album = ["album.json"]
+track = ["track.json"]

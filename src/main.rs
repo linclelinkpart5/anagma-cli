@@ -17,9 +17,9 @@ fn main() {
 
     let config = opts.config_file.map(|fp| Config::from_file(&fp).unwrap()).unwrap_or_else(Default::default);
 
-    println!("{:?}", config.item_fn);
-    println!("{:?}", config.self_fn);
-    println!("{:?}", config.schema_format);
+    println!("{:?}", config.selection);
+    println!("{:?}", config.sorter);
+    println!("{:?}", config.sourcer);
 
     let block = anagma::get_with_config(&opts.item_path, &config);
 
